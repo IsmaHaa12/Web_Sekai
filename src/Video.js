@@ -19,7 +19,7 @@ export default function Example()
         </div>
         <div class="videos-container">
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/DG0Dq8fYkf4" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
+                <iframe src="https://www.youtube.com/embed/lzAyrgSqeeE" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
             </div>
             <div class="video">
                 <iframe src="https://www.youtube.com/embed/h0SC8YN0lOI" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
