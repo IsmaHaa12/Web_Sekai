@@ -11,7 +11,7 @@ export default function Example()
                 <iframe src="https://www.youtube.com/embed/dmYeJn5ae6o" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
             </div>
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/PvSPgwHLql4" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
+                <iframe src="https://www.youtube.com/embed/zsKPMYktICo" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
             </div>
             <div class="video">
                 <iframe src="https://www.youtube.com/embed/6FUO3P-LGyw" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
