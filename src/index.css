@@ -21,6 +21,9 @@ code {
 .bg-image-url-1 {
   background-image: url('https://storage.sekai.best/sekai-assets/character/member/res006_no030_rip/card_after_training.png');
 }
+.bg-image-url-2 {
+  background-image: url('https://storage.sekai.best/sekai-assets/music/jacket/jacket_s_287_rip/jacket_s_287.png');
+}
 .videos-container {
   display: flex;
   flex-direction: row;
