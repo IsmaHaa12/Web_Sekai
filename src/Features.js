@@ -62,6 +62,30 @@ const products = [
       href: 'https://x.com/Mookyuu9/status/1717194795482075450?s=20',
       imageSrc: 'https://cdn.discordapp.com/attachments/1078251159757803610/1167782466992492625/F9SzQz6bMAAg_fJ.jpg?ex=654f612c&is=653cec2c&hm=f52b4a87020385c485bbfa5c88e800c8f0407668eb264afe78d581c7ae1f3965&',
     },
+    {
+      id: 9,
+      name: 'Furina | jura🫧',
+      href: 'https://x.com/jura_oekaki3/status/1721102712035774514?s=20',
+      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1171027144525217792/F-KVyxCbgAAZlDF.jpg?ex=655b2f03&is=6548ba03&hm=6f2ffeda5fae246c6266ac617c985d9de1e7b13e74a82fcacbf7993102e9489d&=&width=646&height=889',
+    },
+    {
+      id: 10,
+      name: 'Kanade | ririne9999_rine',
+      href: 'https://x.com/ririne9999_rine/status/1721140054310134159?s=20',
+      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1171028568613072998/F-K3u_ya4AAujWE.jpg?ex=655b3057&is=6548bb57&hm=559644b2370d035c971eab936dc62b02140667b4ccb4538597ca12fff662724d&=&width=708&height=889',
+    },
+    {
+      id: 11,
+      name: 'Emu | UWØN',
+      href: 'https://x.com/UWON0303/status/1718537035957645356?s=20',
+      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1171029415191384084/F9l39DNbIAAUrpa.jpg?ex=655b3121&is=6548bc21&hm=c4c5f9737b596046246794020d5039688a40730ac909e554b6e4b858b4d33a00&=&width=615&height=889',
+    },
+    {
+      id: 12,
+      name: 'Nene | 雪鱼🐟',
+      href: 'https://x.com/ukiNa77/status/1718336544430493858?s=20',
+      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1171030219751174154/F9jB9rIaUAAmA8H.jpg?ex=655b31e1&is=6548bce1&hm=a28cff92deb060f896d4e5a0f70bc392215f5d69d0561a0f1e236eb9caf58ebc&=&width=889&height=889',
+    },
   ]
   export default function Example() {
     return (
