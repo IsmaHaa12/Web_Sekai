@@ -68,7 +68,7 @@ export default function Example() {
 
                   <a
                     class="p-1 -m-1 text-gray-400 hover:text-amber-500 focus:outline-none focus-visible:ring-2 ring-primary"
-                    href="https://discord.gg/UVdk5Xrw"
+                    href="https://discord.gg/jNknMujZ"
                     rel="noopener"
                     aria-label="25:00 Nightcord"
                     target="_blank"
