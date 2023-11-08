@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Example() {
   return (
-    <div class="flex items-center justify-center min-h-screen bg-cover bg-image-url-1">
+    <div class="flex items-center justify-center min-h-screen bg-cover bg-image-url-2">
       <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words shadow-2xl bg-gradient-to-br from-blue-600 to-lime-900 md:max-w-sm rounded-xl">
         <div class="pb-6">
           <div class="flex flex-wrap justify-center">
             <div class="flex justify-center w-full">
               <div class="relative">
                 <img
-                  src="https://media.discordapp.net/attachments/1091296534370471997/1164390210080088114/K_1.png?ex=654309e3&is=653094e3&hm=5a3d33ebf1d16a4a78a189f598e3ec36b4cd5a8b66e792140f844c034e457335&=&width=741&height=741"
+                  src="https://media.discordapp.net/attachments/1091296534370471997/1171670762982211604/K_2.png?ex=655d866e&is=654b116e&hm=43e42f0b1c9d856bc9caf48584929d5f709fdb7758b32dbcc0b3b29b12a5cde0&=&width=889&height=889"
                   class="dark:shadow-xl bg-gradient-to-br from-orange-500 to-slate-500 rounded-full align-middle border-8 absolute -m-16 -ml-18 lg:-ml-16 max-w-[150px]"
                 />
               </div>

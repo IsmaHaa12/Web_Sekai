@@ -21,7 +21,7 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-12 w-auto"
-                src="https://media.discordapp.net/attachments/1091296534370471997/1164390210080088114/K_1.png?ex=654309e3&is=653094e3&hm=5a3d33ebf1d16a4a78a189f598e3ec36b4cd5a8b66e792140f844c034e457335&=&width=741&height=741"
+                src="https://media.discordapp.net/attachments/1091296534370471997/1171670762982211604/K_2.png?ex=655d866e&is=654b116e&hm=43e42f0b1c9d856bc9caf48584929d5f709fdb7758b32dbcc0b3b29b12a5cde0&=&width=889&height=889"
                 alt=""
               />
             </a>
