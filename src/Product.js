@@ -83,8 +83,8 @@ const products = [
     {
       id: 12,
       name: 'After Training Haruka',
-      href: 'https://storage.sekai.best/sekai-assets/character/member/res006_no010_rip/card_after_training.png',
-      imageSrc: 'https://storage.sekai.best/sekai-assets/character/member/res006_no010_rip/card_after_training.png',
+      href: 'https://storage.sekai.best/sekai-assets/character/member/res006_no027_rip/card_after_training.png',
+      imageSrc: 'https://storage.sekai.best/sekai-assets/character/member/res006_no027_rip/card_after_training.png',
     },
     {
       id:13,
@@ -207,14 +207,14 @@ const products = [
     },{
       id: 33,
       name: 'Kanade',
-      href: 'https://storage.sekai.best/sekai-assets/character/member/res017_no006_rip/card_normal.png',
-      imageSrc: 'https://storage.sekai.best/sekai-assets/character/member/res017_no006_rip/card_normal.png',
+      href: 'https://storage.sekai.best/sekai-assets/character/member/res017_no019_rip/card_normal.png',
+      imageSrc: 'https://storage.sekai.best/sekai-assets/character/member/res017_no019_rip/card_normal.png',
     },
     {
       id: 34,
       name: 'After Training Kanade',
-      href: 'https://storage.sekai.best/sekai-assets/character/member/res017_no006_rip/card_after_training.png',
-      imageSrc: 'https://storage.sekai.best/sekai-assets/character/member/res017_no006_rip/card_after_training.png',
+      href: 'https://storage.sekai.best/sekai-assets/character/member/res017_no022_rip/card_after_training.png',
+      imageSrc: 'https://storage.sekai.best/sekai-assets/character/member/res017_no022_rip/card_after_training.png',
     },
     {
       id: 35,
