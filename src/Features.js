@@ -16,9 +16,9 @@ import Navbar from './Navbar';
 const products = [
     {
       id: 1,
-      name: 'Raiden shogun jk | Asiri Senpai',
-      href: 'https://twitter.com/asirisenpai/status/1717376469704572953?s=19',
-      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1167773659692277891/F9VYqtHaYAA9A97.jpg?ex=654f58f8&is=653ce3f8&hm=6af7def7972a969dc7d56af081101f78ec70f80de10ca1add09fbf5eac6a5611&=&width=711&height=889',
+      name: 'Nene Emu | 菊102 / ｷｸﾄｳｼﾞ',
+      href: 'https://x.com/kiku_102/status/1724361528822943832?s=20',
+      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1174570076238790786/F-3d6WpbsAAUZqg.jpg?ex=656812a0&is=65559da0&hm=03ce05b0fb275a518cd359f7a01e0a56a10fa99a1cd91a30676c0ce00f90bba3&=&width=1215&height=889',
     },
     {
       id: 2,
@@ -28,15 +28,15 @@ const products = [
     },
     {
       id: 3,
-      name: 'Furina | Asiri Senpai',
-      href: 'https://x.com/asirisenpai/status/1702571231860682816?s=20',
-      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1167775100070805675/F6C_YPHbkAAI3rm.jpg?ex=654f5a50&is=653ce550&hm=45640298670141c2683321be053dca3b91b4993786f2b9f0cd7b9faf6e41470d&=&width=711&height=889',
+      name: 'Airi | ネココ',
+      href: 'https://x.com/nekoko_pjsk/status/1724689972513685926?s=20',
+      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1174571178829037609/F-9UY0vaIAADB_9.jpg?ex=656813a7&is=65559ea7&hm=e8f7473dfea84da82b7fd08897063f8312eab28b6335f8b4d2b15f19fd05afc0&=&width=943&height=889',
     },
     {
       id: 4,
-      name: 'Raiden Shogun | Asiri Senpai',
-      href: 'https://x.com/asirisenpai/status/1716071860302164371?s=20',
-      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1167775684945526795/F9C2DgRaoAA1AS3.jpg?ex=654f5adb&is=653ce5db&hm=8c82b08159f2e6009f669bffc6387d556d20ea22705f0c3680d8355946228390&=&width=711&height=889',
+      name: 'Minori | 未確認生命体K',
+      href: 'https://x.com/keseranpasaraa/status/1724796524239180117?s=20',
+      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1174572003152367639/F--1S2yaQAAFmcL.jpg?ex=6568146c&is=65559f6c&hm=a4f92e8e80ca112523ce992cdb8431b90771a8d16850b9a4d0d20835dea9f2db&=&width=753&height=889',
     },
     {
       id: 5,
@@ -52,21 +52,21 @@ const products = [
     },
     {
       id: 7,
-      name: 'Kagamine Rin | 謝謝いぬ',
-      href: 'https://x.com/inu_totemo/status/1718074509989998660?s=20',
-      imageSrc: 'https://cdn.discordapp.com/attachments/1078251159757803610/1167780319018094652/F9fTqJJaYAAKKSf.jpg?ex=654f5f2c&is=653cea2c&hm=d0ebbf798d0f09f1223cfb2b41c266e6541dbb0b387779aa5dff20435807fc20&',
+      name: 'Mafuyu | あおせ',
+      href: 'https://x.com/aose_pp/status/1724021685354188993?s=20',
+      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1174576152657023016/F-z0lVibsAAAMIJ.jpg?ex=65681849&is=6555a349&hm=744c116b4a1824daddd2d4a6201594613f25d97b88b4bdeed17ead96cbe7d0d6&=&width=604&height=889',
     },
     {
       id: 8,
-      name: 'Furina | Mookyuu9',
-      href: 'https://x.com/Mookyuu9/status/1717194795482075450?s=20',
-      imageSrc: 'https://cdn.discordapp.com/attachments/1078251159757803610/1167782466992492625/F9SzQz6bMAAg_fJ.jpg?ex=654f612c&is=653cec2c&hm=f52b4a87020385c485bbfa5c88e800c8f0407668eb264afe78d581c7ae1f3965&',
+      name: 'Ena | チャス',
+      href: 'https://x.com/chasu_ice/status/1722195357189452200?s=20',
+      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1174573769096962048/F-Z3jNXawAAT1uO.jpg?ex=65681611&is=6555a111&hm=b28e50d493c8c2d12572e09a27b78318512a2918ddf4aa1f17dfd7875805eb7a&=&width=889&height=889',
     },
     {
       id: 9,
-      name: 'Furina | jura🫧',
-      href: 'https://x.com/jura_oekaki3/status/1721102712035774514?s=20',
-      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1171027144525217792/F-KVyxCbgAAZlDF.jpg?ex=655b2f03&is=6548ba03&hm=6f2ffeda5fae246c6266ac617c985d9de1e7b13e74a82fcacbf7993102e9489d&=&width=646&height=889',
+      name: 'Kanade | Yume',
+      href: 'https://x.com/yumeyume_030/status/1723634428688425287?s=20',
+      imageSrc: 'https://media.discordapp.net/attachments/1078251159757803610/1174575560320634880/F-uUYEBboAAu5uh.jpg?ex=656817bc&is=6555a2bc&hm=800b92585d5aebb2b6ad54ad39f8c22d6669a484306115baaec61ab7f577b437&=&width=724&height=889',
     },
     {
       id: 10,

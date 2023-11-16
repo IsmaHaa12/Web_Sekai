@@ -219,14 +219,14 @@ const products = [
     {
       id: 35,
       name: 'Mafuyu',
-      href: 'https://storage.sekai.best/sekai-assets/character/member/res018_no025_rip/card_normal.png',
-      imageSrc: 'https://storage.sekai.best/sekai-assets/character/member/res018_no025_rip/card_normal.png',
+      href: 'https://storage.sekai.best/sekai-assets/character/member/res018_no021_rip/card_normal.png',
+      imageSrc: 'https://storage.sekai.best/sekai-assets/character/member/res018_no021_rip/card_normal.png',
     },
     {
       id: 36,
       name: 'After Training Mafuyu',
-      href: 'https://storage.sekai.best/sekai-assets/character/member/res018_no025_rip/card_after_training.png',
-      imageSrc: 'https://storage.sekai.best/sekai-assets/character/member/res018_no025_rip/card_after_training.png',
+      href: 'https://storage.sekai.best/sekai-assets/character/member/res018_no021_rip/card_after_training.png',
+      imageSrc: 'https://storage.sekai.best/sekai-assets/character/member/res018_no021_rip/card_after_training.png',
     },
     {
       id: 37,
