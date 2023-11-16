@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 export default function Example()
 {
     return(
-    <div className="overflow-hidden" class="bg-cover bg-center bg-image-url-1" style={{ backgroundAttachment: 'fixed', backgroundSize: 'cover' }}>
+    <div className="overflow-hidden" class="bg-cover bg-center bg-image-url" style={{ backgroundAttachment: 'fixed', backgroundSize: 'cover' }}>
         <Navbar />
         <div class="videos-container">
             <div class="video">

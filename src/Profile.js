@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Example() {
   return (
-    <div class="flex items-center justify-center min-h-screen bg-cover bg-image-url-2">
+    <div class="flex items-center justify-center min-h-screen bg-cover bg-image-url">
       <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words shadow-2xl bg-gradient-to-br from-blue-600 to-lime-900 md:max-w-sm rounded-xl">
         <div class="pb-6">
           <div class="flex flex-wrap justify-center">

@@ -4,7 +4,7 @@ export default function Example() {
 
   return (
     <div className="bg-white">
-      <div className="relative isolate px-6 pt-14 lg:px-8" class="bg-cover bg-center bg-image-url-2" style={{ backgroundAttachment: 'fixed', backgroundSize: 'cover' }}>
+      <div className="relative isolate px-6 pt-14 lg:px-8" class="bg-cover bg-center bg-image-url" style={{ backgroundAttachment: 'fixed', backgroundSize: 'cover' }}>
         <Navbar/>
         <div>
             </div>

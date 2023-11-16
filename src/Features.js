@@ -89,7 +89,7 @@ const products = [
   ]
   export default function Example() {
     return (
-      <div className="bg-cover bg-center bg-image-url-1" style={{ backgroundAttachment: 'fixed', backgroundSize: 'cover' }}>
+      <div className="bg-cover bg-center bg-image-url" style={{ backgroundAttachment: 'fixed', backgroundSize: 'cover' }}>
         <Navbar />
         <div className="mx-auto max-w-2xl px-4 py-6 sm:px-6 sm:py-14 lg:max-w-7xl lg:px-8">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Fan Art</h2>
