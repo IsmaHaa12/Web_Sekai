@@ -39,3 +39,61 @@ code {
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
+
+
+.image-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.gallery-image {
+  max-width: 100%;
+  max-height: 550px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.arrow-button {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  background-color: #ffffff00; /* Sesuaikan warna latar belakang dengan kebutuhan Anda */
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.arrow-button:hover {
+  background-color: #ffffff00; /* Sesuaikan warna latar belakang hover dengan kebutuhan Anda */
+}
+
+.arrow-button:first-child {
+  left: 10px;
+}
+
+.arrow-button:last-child {
+  right: 10px;
+}
+
+.app {
+  text-align: center;
+}
+
+.photo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.photo {
+  margin: 5px;
+  background: #e6f7ff;
+  padding: 5px;
+  border: 1px solid #0073e6;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
