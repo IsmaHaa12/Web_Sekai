@@ -6,6 +6,9 @@ export default function Example()
     return(
     <div className="overflow-hidden" class="bg-cover bg-center bg-image-url" style={{ backgroundAttachment: 'fixed', backgroundSize: 'cover' }}>
         <Navbar />
+            <div className="text-container bg-white bg-opacity-75 p-6 rounded-md mt-14 mx-auto max-w-2xl px-4 py-6 sm:px-6 sm:py-6 lg:max-w-7xl lg:px-4">
+                <h2 className="text-center text-2xl font-bold tracking-tight text-gray-900">Music Video Project Sekai</h2>
+            </div>
         <div class="videos-container">
             <div class="video">
                 <iframe src="https://www.youtube.com/embed/dmYeJn5ae6o" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
