@@ -1,10 +1,16 @@
 import React from "react";
+import Navbar from './Navbar'
 
 export default function Example() {
   return (
-    <div class="flex items-center justify-center min-h-screen bg-cover bg-image-url">
-      <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words shadow-2xl bg-gradient-to-br from-blue-600 to-lime-900 md:max-w-sm rounded-xl">
-        <div class="pb-6">
+    <div class="bg-cover bg-image-url">
+      <header><Navbar /></header>
+      <div class="flex flex-col min-h-screen" >
+        <div className='flex items-center justify-center mt-10 mb-9'>
+          <img src='https://cdn.discordapp.com/attachments/1091296534370471997/1193914350893793310/logo_school_refusal.png?ex=65ae7263&is=659bfd63&hm=143fe6cd5abe6a61a9bf5b1b481a98d17a753ce527511aeec0ef049deb9735a4&' width={300} height={100} />
+        </div>
+        <div class="relative w-full group max-w-md min-w-0 mx-auto mt-11 mb-6 break-words shadow-2xl bg-gradient-to-br from-blue-600 to-lime-900 md:max-w-sm rounded-xl">
+         <div class="pb-6">
           <div class="flex flex-wrap justify-center">
             <div class="flex justify-center w-full">
               <div class="relative">
@@ -48,7 +54,7 @@ export default function Example() {
                     class="p-1 -m-1 text-gray-400 hover:text-amber-500 focus:outline-none focus-visible:ring-2 ring-primary"
                     href="https://www.instagram.com/_shinonome_ena/"
                     rel="noopener"
-                    aria-label="Ariel Cerda on Instagram"
+                    aria-label="Isma Habiburrohman on Instagram"
                     target="_blank"
                   >
                     <svg
@@ -95,7 +101,7 @@ export default function Example() {
             <div class="flex flex-wrap justify-center">
               <div class="w-full px-6">
                 <p class="mb-4 font-light leading-relaxed text-gray-600 dark:text-gray-400">
-                  Become One With The Sword
+                  Konichiwandahoy!!!!
                 </p>
               </div>
             </div>
@@ -113,6 +119,7 @@ export default function Example() {
           </div>
         </div>
       </div>
+        </div>
     </div>
   );
 }
