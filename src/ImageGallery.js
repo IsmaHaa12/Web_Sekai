@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const images = [
   'https://cdn.discordapp.com/attachments/1091296534370471997/1192712207427965018/GCpRcDdaQAAYW-w.png?ex=65aa12cd&is=65979dcd&hm=3f79c58af0a45dfd38621f74db3750a7f0943d8a567b9520b454c7b24c4af940&',
@@ -26,6 +26,16 @@ const ImageGallery = () => {
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
+
+  useEffect(() => {
+    // Menentukan waktu perpindahan otomatis (dalam milidetik), contoh: 3000ms atau 3 detik
+    const interval = setInterval(() => {
+      handleNext();
+    }, 9000);
+
+    // Membersihkan interval saat komponen tidak lagi digunakan atau unmount
+    return () => clearInterval(interval);
+  }, [currentIndex])
 
   return (
     <div className="image-gallery">
