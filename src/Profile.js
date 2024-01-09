@@ -27,7 +27,7 @@ export default function Example() {
             </h3>
             <div class="flex flex-row justify-center w-full mx-auto space-x-2 text-center">
               <div class="text-sm tracking-wide font-bold bg-gradient-to-br from-orange-400 to-slate-500 bg-clip-text text-transparent">
-                Universitas Muhammadiyah Purwoketo
+                Universitas Muhammadiyah Purwokerto
               </div>
             </div>
             <div class="w-full text-center">
