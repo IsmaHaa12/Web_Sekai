@@ -6,6 +6,7 @@ const Product = lazy(() => import('./Product'));
 const Features = lazy(() => import('./Features'));
 const Video = lazy(() => import('./Video'));
 const Profile = lazy(() => import('./Profile'));
+const Koma = lazy(() => import('./koma'));
 
 const App = () => (
   <Router>
@@ -16,6 +17,7 @@ const App = () => (
         <Route path="/Feature" element={<Features />} />
         <Route path="/Video" element={<Video />} />
         <Route path="/Profile" element={<Profile />} />
+        <Route path='/koma' element={<Koma />} />
       </Routes>
     </Suspense>
   </Router>

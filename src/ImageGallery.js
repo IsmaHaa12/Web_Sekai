@@ -1,18 +1,14 @@
 import React, { useState, useEffect } from 'react';
 
 const images = [
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192712207427965018/GCpRcDdaQAAYW-w.png?ex=65aa12cd&is=65979dcd&hm=3f79c58af0a45dfd38621f74db3750a7f0943d8a567b9520b454c7b24c4af940&',
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192712209021808690/GCpRcDda8AAFYZo.png?ex=65aa12ce&is=65979dce&hm=0187cfe5f07205455c7496cc028aed5657bbc1bb6ba54eed59ad45d05a8e2461&',
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192712203506298900/GCpRdNBa0AAzrLk.png?ex=65aa12cc&is=65979dcc&hm=ecbe6bb26d5397b1b8f1ffb40be85d724b5599cbf193240345fd3f45844df912&',
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192712205255319572/GCpRdM_aYAAGddW.png?ex=65aa12cd&is=65979dcd&hm=40211ae909850bbf5bf7ece4803c9d33ce25faf51f76484138789392368ff2ec&',
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192710556088541275/GCpReT7a0AAfe7z.png?ex=65aa1144&is=65979c44&hm=1ffe918f27757fee419264b175bd384a4068dc9549ece1d5e4d399bbed9f67a6&',
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192712201627246632/GCpReT_a0AAsv31.png?ex=65aa12cc&is=65979dcc&hm=cb1fb2da1bc4098c651cf4d150d768453878b2b82d65f407cc0fa52c5640e9c1&',
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192712210552725515/GCpRf6dbgAAZp8s.png?ex=65aa12ce&is=65979dce&hm=59928626abbec88e4993e56e9689eed4409a714a29df1e20d1e9d795c0c11a0c&',
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192712212503080961/GCpRf6ebcAA5KUN.png?ex=65aa12ce&is=65979dce&hm=7053e2f3248814d095575914a8ce68184b89db1918a15c60102c52cd134226b7&',
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192712213803307008/GCpRhPIbwAEIp9I.png?ex=65aa12cf&is=65979dcf&hm=3dfc3dba9cebbe569c4a015017f551d3a0c649baa7a25c5110080cd1ea72df6c&',
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192712215128711188/GCpRhPIbcAAMGJA.png?ex=65aa12cf&is=65979dcf&hm=7219276910cb4e58102f88c31cd8ff2ff3b1378a0eaa87be5ebaea1d24c7f9d6&',
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192712456867414056/GCp8hjbbQAAB0NL.png?ex=65aa1309&is=65979e09&hm=ee29c63056e223ce1ec4f6e3b41be87d5ec2451e77a50413b919a5580d2a6168&',
-  'https://cdn.discordapp.com/attachments/1091296534370471997/1192712458528370799/GCp8hjgacAATba6.png?ex=65aa1309&is=65979e09&hm=2c659196e03a3098194e6776c429d2656b39a4880e0f69c0ca3bb6e382d14d33&',
+  'https://cdn.discordapp.com/attachments/1091296534370471997/1194166460562550794/GDXr6HPa8AA4ZnA.png?ex=65af5d2e&is=659ce82e&hm=01a2b4228cf7d4e5d8906467eda5ee73a0218cd6afd35c8b35d3cf25a6ea4e6a&',
+  'https://cdn.discordapp.com/attachments/1091296534370471997/1194166462340927578/GDXr6HQbQAA7TaM.png?ex=65af5d2f&is=659ce82f&hm=3dea2109ba110fa9fe21507fc5eda51925905d1b0c0174b09a994615fbf7f6e0&',
+  'https://cdn.discordapp.com/attachments/1091296534370471997/1194166464110927892/GDXr7YXagAE70Aw.png?ex=65af5d2f&is=659ce82f&hm=ec60cfd5411bbb618990dff04443956ec4341fbc5506b85c4348e9ee187a414e&',
+  'https://cdn.discordapp.com/attachments/1091296534370471997/1194166465948037210/GDXr7YVbQAApLAT.png?ex=65af5d30&is=659ce830&hm=8cecec0eacf9fc3db1e9921f81f88652042108223398f029c3be550c64f08a37&',
+  'https://cdn.discordapp.com/attachments/1091296534370471997/1194166467491532910/GDXr8mabcAA5bjl.png?ex=65af5d30&is=659ce830&hm=cd7720fbc14209d17856cc8e9c2000a48a2748b526b28ced5b244f2a65269caf&',
+  'https://cdn.discordapp.com/attachments/1091296534370471997/1194166469026652200/GDXr8mbbkAAnsRO.png?ex=65af5d30&is=659ce830&hm=8e6334f19ff5fb7ff80f67103d948a966d3ec19da160bb976b8931fda89459c9&',
+  'https://cdn.discordapp.com/attachments/1091296534370471997/1194166471190909058/GDXr97ubIAAQhmH.png?ex=65af5d31&is=659ce831&hm=0da789d679b465aed08e37f9b745872e7d791875bf8b5b455c431fabe50517ee&',
+  'https://cdn.discordapp.com/attachments/1091296534370471997/1194166472788942858/GDXr97daoAAI0QG.png?ex=65af5d31&is=659ce831&hm=a47e7c74e67796142e15ea8a7350192e9314c74eb54fa0b0e962683d0a228d9b&',
   // Tambahkan URL gambar lain sesuai kebutuhan
 ];
 

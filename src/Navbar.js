@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Art Card', href: '/Product'},
   { name: 'Fan Art', href: '/Feature'},
   { name: 'Video Music', href: '/Video'},
+  { name: 'Komik', href: '/koma'},
 ]
 
 export default function Example() {
