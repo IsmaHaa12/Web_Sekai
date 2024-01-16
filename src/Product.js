@@ -260,7 +260,7 @@ const products = [
         <Navbar />
         <div className="mx-auto max-w-2xl px-4 py-6 sm:px-6 sm:py-14 lg:max-w-7xl lg:px-8">
           <div className="text-container bg-white bg-opacity-75 p-6 rounded-md">
-            <h2 className="text-center text-2xl font-bold tracking-tight text-gray-900">Artwork Original by SEGA</h2>
+            <h2 className="text-center text-2xl font-bold tracking-tight text-gray-900">Artwork Original Project Sekai</h2>
           </div>
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {products.map((product) => (
