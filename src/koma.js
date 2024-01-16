@@ -186,7 +186,7 @@ const komik = [
           </div>
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {komik.map((komik) => (
-              <div className="group relative bg-white rounded-md p-4 text-center">
+              <div className="group relative bg-white rounded-md p-2 text-center">
                 <div className="aspect-h-7 aspect-w-7 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-125">
                   <div className="w-full h-full flex items-center justify-center">
                     <img
