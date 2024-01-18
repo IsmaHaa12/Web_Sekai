@@ -14,7 +14,7 @@ export default function Example()
                 <iframe src="https://www.youtube.com/embed/dmYeJn5ae6o" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
             </div>
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/zsKPMYktICo" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
+                <iframe src="https://www.youtube.com/embed/YaEOCG1yBB4?si=7c1swvx9aM6Z5NRq" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
             </div>
             <div class="video">
                 <iframe src="https://www.youtube.com/embed/6FUO3P-LGyw" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
@@ -25,7 +25,7 @@ export default function Example()
                 <iframe src="https://www.youtube.com/embed/L_vNk-FAO4k" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
             </div>
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/h0SC8YN0lOI" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
+                <iframe src="https://www.youtube.com/embed/3PcGCAfKNvs?si=BedO5mBiqtfxtto4" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
             </div>
             <div class="video">
                 <iframe src="https://www.youtube.com/embed/cY-fxwWp4HM" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
@@ -33,7 +33,7 @@ export default function Example()
         </div>
         <div class="videos-container">
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/JQ4zVYslBmk" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
+                <iframe src="https://www.youtube.com/embed/reVm0tEg6ic?si=0Ee6WYfiIfe0PFD" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
             </div>
             <div class="video">
                 <iframe src="https://www.youtube.com/embed/2qWJbhQQFB4" width="420" height="240" frameborder="0" allow="fullscreen"></iframe>
