@@ -14,12 +14,10 @@ const ImageGallery = () => {
   };
 
   useEffect(() => {
-    // Menentukan waktu perpindahan otomatis (dalam milidetik), contoh: 3000ms atau 3 detik
     const interval = setInterval(() => {
       handleNext();
     }, 9000);
 
-    // Membersihkan interval saat komponen tidak lagi digunakan atau unmount
     return () => clearInterval(interval);
   }, [currentIndex])
 
